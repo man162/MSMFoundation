@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MSMFoundation"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
     spec.summary      = "Common framework for iOS Apps"
   spec.description = "Common framework fot iOS Apps to handle
                       Alert and Alert Action
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Manpreet Singh" => "contact@manpreetsingh.ca" }
 
-  spec.source       = { :git => "https://github.com/man162/MSMFoundation", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/man162/MSMFoundation.git", :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = "10.0"
 
